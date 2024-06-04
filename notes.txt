@@ -1,0 +1,21 @@
+this is to create an id;
+
+function randomId() {
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+[]{}|;:,.<>?';
+  let result = '';
+  
+  for (let i = 0; i < 24; i++) {   
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    result += characters[randomIndex];
+  }
+  
+  return result;
+} 
+{
+  "address": "jotana,Mehsana",
+  "paymentmethod": "Cash On delivery",
+  "fullname": "Kuldeep Chavda",
+  "pincode": "384421",
+  "qty": "10",
+  "productid":"I0bzPnuBVpaeA0Xx7ij9BHIf"
+}
